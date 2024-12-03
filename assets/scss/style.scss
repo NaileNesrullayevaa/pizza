@@ -1,0 +1,236 @@
+
+.left-box{
+    .box{
+        display: block;
+        position: relative;
+        top: 100px;
+        left: -92px;
+        span{
+            border: 2px solid white;
+            background-color: white;
+            width: 120px;
+            display: inline-block;
+            text-align: center;
+        }
+        i{
+            border: 2px solid blue;
+            background-color: blue;
+            color: white;
+            width: 30px;
+            height: 27px;
+            position: relative;
+            top: 7px;
+            left: -4px;
+            text-align: center;
+            &::before{
+                content: "\f00d";
+                font-family: "Font Awesome 5 Free";
+                font-weight: 900;
+                position: absolute;
+                left: 7px;
+                top: 6px;
+            }
+         
+        }
+        &.active2{
+            display: none;
+        }
+    }
+   
+}
+
+.pizza-box{
+    .blue-box{
+        background-color: blue;
+        border-radius: 50%;
+        border: 1px solid blue;
+        padding: 66px;
+        position: relative;
+        top: 120px;
+        left: 0px;
+        width: 250px;
+        height: 250px;
+        ul{
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            list-style: none;
+            display: flex;
+            justify-content: space-around; 
+            li{
+                width: 60px;
+                height: 60px; 
+                background-color: #3498db; 
+                color: white; 
+                border-radius: 50%; 
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                font-size: 14px; 
+                // font-size: 32px;
+                // z-index: 999;
+                // position: relative;
+                // left: 210px;
+                // top: -200px;
+                
+            }
+
+       
+        }
+
+        .white-box{
+            background-color: white;
+            border: 1px solid white;
+            position: absolute;
+            width: 150px;
+            height: 90px;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%,-50%);
+            border-radius: 50%;                    
+            padding: 100px;
+            &.active-s{
+                padding: 120px;
+            }
+            .pizza-img{
+                border-radius: 50%;
+                position: absolute;
+                padding: 30px;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%,-50%);
+                img{
+                    width: 146px;
+                    height: 141px;
+                    &.active-s{
+                        padding: 30px;
+                    }
+                    &.active-m{
+                        padding: 20px;
+                    }
+                    &.active-b{
+                        padding: 10px;
+                    }
+                }
+               
+            }
+        }
+    }
+}
+
+
+ 
+
+ 
+
+.right-box{
+    background-color: white;
+    height: 100vh;
+    position: relative;
+    right: -80px;
+    .first{
+        .icon{
+            color: blue;
+        }
+        .ketchup{
+            &.active{
+                transform: rotate(270deg);
+            }
+        }
+    }
+    .spices{
+        position: relative;
+    }
+    // .second{
+
+    // }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// .pizza-box{
+//     height: 100vh;
+//     width: 100%;
+//     .blue-box{
+//         position:relative;
+//         width: 30%;
+//         height: 50vh;
+//         top: 20px;
+//         left: 30px;
+//         background-color: white;
+//         border-radius: 50%;
+//         border: 40px solid blue;
+//         ul{
+//             list-style: none;
+//             position: absolute;
+//             li{
+//                 font-size: 32px;
+//                 &.delivery{
+//                     position: relative;
+//                     top: 0px;
+//                     left: 0px;
+//                     // transform: rotate(30deg);
+//                 }
+//                 &.order{
+//                     position: relative;
+//                     top: 20px;
+//                     left: 80px;
+//                 }
+//             }
+          
+            
+//         }
+//         .white-box{
+//             background-color: white;
+//             border-radius: 90%;
+//             position: absolute;
+//             top: 50%;
+//             left: 50%;
+//             padding: 60px;
+//             transform: translate(-50%,-50%);
+//             .pizza-img{
+                
+//                 border-radius: 50%;
+//                 position: absolute;
+//                 padding: 30px;
+
+               
+//                 top: 50%;
+//                 left: 50%;
+//                 transform: translate(-50%,-50%);
+//             }
+//         }
+//     }
+
+// }
